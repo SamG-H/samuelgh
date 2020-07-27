@@ -1,4 +1,5 @@
+ENV['SINATRA_ENV'] ||= "development"
 require 'bundler/setup'
-Bundler.require
+Bundler.require(:default, ENV['SINATRA_ENV'])
 
-require_relative '../app/application'
+require './app'

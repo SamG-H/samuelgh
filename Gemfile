@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
 gem 'nokogiri'
+gem 'shotgun'
+gem 'thin'
+gem 'sinatra'
 gem 'rack', '~> 2.1.4'
 gem 'rspec'
